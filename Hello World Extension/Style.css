@@ -1,0 +1,50 @@
+body {
+    font-family: Contemporary;
+    color: white;
+    background-color: #404040;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://source.unsplash.com/collection/1041983/1920x1080");
+}
+.Greeting{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    margin: 0;
+    font-size: 50px;
+}
+.Searchbar {
+    border: none;
+    font-size: 40px;
+    color: white;
+    background-color: #1a1a1a;
+    opacity: 80%;
+    position: absolute;
+    border-radius: 12.5px;
+    font-family: Contemporary;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display:inline-block;
+    margin-right:10px;
+}
+
+.Searchbar:focus{
+    outline:none;
+}
+.clock{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    margin: 0;
+    font-size: 50px;
+}
+.Search{
+    display: flex;
+}
+.OpaqueLayer{
+    background-color: #404040;
+    opacity: 60%;
+}
