@@ -1,3 +1,3 @@
 # Hello-World-new-tab
 Currently in beta
-by archibowl with help from redstonecats101
+Built by Archibowl and RedStoneCats101
