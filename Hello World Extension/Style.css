@@ -1,5 +1,5 @@
 body {
-    font-family: Contemporary;
+    font-family: Contemporary, serif;
     color: white;
     background-color: #404040;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -21,8 +21,8 @@ body {
     background-color: #1a1a1a;
     opacity: 80%;
     position: absolute;
-    border-radius: 12.5px;
-    font-family: Contemporary;
+    border-radius: 13px;
+    font-family: Contemporary, serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -100%);
@@ -49,7 +49,7 @@ body {
     opacity: 60%;
 }
 .material-icons {
-    font-family: 'Material Icons';
+    font-family: 'Material Icons', serif;
     font-weight: normal;
     font-style: normal;
     font-size: 50px;
