@@ -1,5 +1,5 @@
 body {
-    font-family: Contemporary, serif;
+    font-family: Contemporary, "Roboto Light";
     color: white;
     background-color: #404040;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -28,6 +28,7 @@ body {
     transform: translate(-50%, -100%);
     display:inline-block;
     margin-right:10px;
+    width: 875px;
 }
 
 .Searchbar:focus{
@@ -40,9 +41,6 @@ body {
     transform: translate(-50%, -200%);
     margin: 0;
     font-size: 50px;
-}
-.Search{
-    display: flex;
 }
 .OpaqueLayer{
     background-color: #404040;
