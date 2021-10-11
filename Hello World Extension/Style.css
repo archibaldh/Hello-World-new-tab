@@ -30,16 +30,10 @@ body {
     margin-right:10px;
     width: 875px;
 }
-
 .Searchbar:focus{
     outline:none;
 }
 .clock{
-    position:absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -200%);
-    margin: 0;
     font-size: 50px;
 }
 .OpaqueLayer{
@@ -50,7 +44,7 @@ body {
     font-family: 'Material Icons', serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 50px;
+    font-size: 40px;
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -60,4 +54,73 @@ body {
     direction: ltr;
     text-decoration: none;
     color: white;
+}
+#settings {
+margin-top: -10px;
+}
+.settingsbutton {
+    background-color: transparent;
+    border: none;
+    float: right;
+    line-height: 40px;
+    height: 65px;
+    padding-right: 20px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+
+}
+#link1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.linkdiv{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.modal-content {
+    position: relative;
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: auto;
+    width: 75%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    position: relative;z-index:1100;
+}
+.close-btn {
+    float: right;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;z-index:1200;
+}
+.close-btn:hover {
+    color: darkgray;
+    position: relative;z-index:1200;
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.settingsmodaltext{
+    font-size: 20px;
+}
+#linkbtn{
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-family: Contemporary, sans-serif;
 }

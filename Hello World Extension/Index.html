@@ -10,14 +10,31 @@
 <div class="clock">
     <span class="clock-time"></span>
     <span class="clock-ampm"></span>
+    <button class="settingsbutton" id="modal-btn">
+    <span class="material-icons" id="settings">settings</span></button>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h5>Settings</h5>
+            <h6>Coming Soon</h6>
+        </div>
+    </div>
 </div>
+
+
 <script src="main.js"></script>
     <p class="Greeting">Hello, world!</p>
     <div class="Search">
     <form method="get" id="Search" action="https://duckduckgo.com/">
         <embed>
-        <input type="text" name="q" placeholder="!G for Google, !DDG for DuckDuckGo, !B for Bing" aria-label="Search on DuckDuckGo" class="Searchbar" />
+        <input type="text" name="q" placeholder="!G for Google, !DDG for DuckDuckGo, !B for Bing" aria-label="Search on DuckDuckGo" class="Searchbar" autocomplete="off"/>
     </form>
+        <div class="linkdiv">
+        <a href="https://google.com" title="Google" class="link" id="Link1">Google</a>
+        <a href="https://twitter.com" title="Twitter" class="link">Twitter</a>
+        <a href="https://duckduckgo.com" title="DuckDuckGo" class="link">DuckDuckGo</a>
+        <a href="https://gmail.com" title="Gmail" class="link">Gmail</a>
+        </div>
     <div class="OpaqueLayer"></div>
     </div>
 </body>
