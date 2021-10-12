@@ -1,6 +1,6 @@
 # Hello-World-new-tab
 Hello World New Tab is a chromium based browser extension that replaces your new tab page with an elegant and minimalistic page with a clock, search bar and beatuiful background images that change each time you open it.
-##Installation
+## Installation
 Hello World New Tab is currently in beta, Because of this, it is not available on the chrome webstore yet.
 You must install it as an unpacked extension.
 
