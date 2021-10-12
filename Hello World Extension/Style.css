@@ -28,7 +28,7 @@ body {
     transform: translate(-50%, -100%);
     display:inline-block;
     margin-right:10px;
-    width: 875px;
+    width: 810px;
 }
 .Searchbar:focus{
     outline:none;
