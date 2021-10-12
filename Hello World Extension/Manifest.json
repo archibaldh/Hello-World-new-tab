@@ -1,7 +1,12 @@
 {
-  "manifest_version": 2,
-  "name": "Hello World! Minimalist New Tab Page.",
-  "version": "0.2.0",
+  "manifest_version": 3,
+  "name": "Hello, World! Minimalist Open Source New Tab Page.",
+  "version": "1.0.0",
+  "description": "An elegant, open source",
+  "icons": {"16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "chrome_url_overrides": {
     "newtab":"Index.html"
   }
