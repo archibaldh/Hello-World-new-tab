@@ -13,6 +13,8 @@ You must install it as an unpacked extension.
 
 Congratulations, you have just installed hello world new tab!
 
+It is coming to the chrome web store soon!
+
 If you find any issues please contact me on my twitter or through email at archibowl@protonmail.com!
 
 Currently in beta.
