@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Hello, World! Minimalist Open Source New Tab Page.",
   "version": "1.0.0",
-  "description": "An elegant, open source",
+  "description": "A simple new tab page.",
   "icons": {"16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
