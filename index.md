@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Hello World New Tab 
 
-You can use the [editor on GitHub](https://github.com/archibowl/Hello-World-new-tab/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hello world new tab is a Minimalist and Open Source New Tab extension.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
