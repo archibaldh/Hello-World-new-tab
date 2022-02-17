@@ -20,3 +20,4 @@ If you find any issues please contact me on my twitter or through email at archi
 Currently in beta.
 
 Built by Archibowl and RedStoneCats101
+![New Tab Page Screenshot](https://i.ibb.co/vjPYSY4/Screenshot-20220217-185146.png)
